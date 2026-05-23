@@ -16,10 +16,10 @@ def load_predictor():
 
 predictor = load_predictor()
 
-st.title("📈 Predicción de Popularidad de Noticias")
+st.title("📈 Predicción de Popularidad de Noticias en linea")
 st.markdown("Ingresa la URL de una noticia para predecir su rendimiento y clasificarla mediante Inteligencia Artificial.")
 
-url_input = st.text_input("URL del artículo:", placeholder="https://mashable.com/article/example...")
+url_input = st.text_input("URL del artículo:", placeholder="https://mashable.com/example...")
 
 if st.button("Analizar Artículo"):
     if url_input:
